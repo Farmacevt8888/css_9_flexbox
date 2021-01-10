@@ -1,0 +1,74 @@
+/* файл обнуления стилей */
+@import "nullstyle.scss";
+
+.wrapper {
+   height: 100%;
+   overflow: hidden;
+   min-height: 100%;
+   padding: 50px;
+   
+}
+
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block__row {
+   display: flex;
+   border: 20px solid rgb(206, 219, 16);
+   margin: 0px 0px 20px 0px;
+   flex-direction: column;
+   // align-items: flex-start;
+   justify-content: space-between;
+   height: 700px;
+}
+.block__column {
+   border: 20px solid rgb(205, 13, 223);
+   // flex-basis: auto;
+   // flex-grow: 0;
+   // flex-shrink: 1;
+   // flex: 0 1 auto;
+}
+
+.block__column_1{
+
+}
+.block__column_2 {
+flex: 1 1 auto;
+}
+.block__column_3 {
+
+}
+
+.block__item {
+   background-color: #18b5a4;
+   padding: 50px;
+   font-size: 50px;
+   color: #ffffff;
+   font-weight: 700;
+}
+.block__list {
+   display: flex;
+   align-items: center;
+   li {
+      margin: 0px 15px 0px 0px;
+      &:last-child {
+         margin: 0px 0px 0px 0px;
+      }
+   }
+}
+.block__info {
+   position: relative;
+   padding: 0px 0px 0px 25px;
+   line-height: 15px;
+}
+
+.block__info {
+   display: flex;
+   justify-content: start;
+}
+.block__info-y {
+}
+.block__info-p {
+}
+.block__info-g {
+}
